@@ -1,0 +1,23 @@
+# Protocol Analysis
+
+This report summarizes the protocols identified in the captured network traffic.
+
+## HTTP
+- Observed multiple GET/POST requests.
+- Example: Request to `example.com/index.html`.
+
+## DNS
+- Domain name resolutions observed.
+- Example: `google.com` resolved to `142.250.190.46`.
+
+## TCP
+- Standard three-way handshake observed.
+- Port 80 and 443 mostly used.
+
+## ICMP
+- Ping requests and replies detected between host machines.
+
+## ARP
+- Address resolution for local network observed.
+
+**Conclusion:** The captured network shows typical web browsing traffic with no unusual activity.
